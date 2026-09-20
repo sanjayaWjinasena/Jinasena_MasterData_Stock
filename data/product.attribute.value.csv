@@ -72,7 +72,7 @@ product_attribute_value_d194vh11_5,D194VH11.5,0,Jinasena_MasterData_Stock.produc
 product_attribute_value_sinhala,Sinhala,0,Jinasena_MasterData_Stock.product_attribute_user_manual,0.0,,9
 product_attribute_value_anon,/,0,Jinasena_MasterData_Stock.product_attribute_user_manual,0.0,,7
 product_attribute_value_user_manual,User Manual,0,Jinasena_MasterData_Stock.product_attribute_user_manual,0.0,,1
-product_attribute_value_10_100,10-100,0,,0.0,,10
+product_attribute_value_10_100,10-100,0,website_sale.product_attribute_brand,0.0,,10
 product_attribute_value_75000,75000,0,Jinasena_MasterData_Stock.product_attribute_price,0.0,,2
 product_attribute_value_5_years,5 years,0,Jinasena_MasterData_Stock.product_attribute_warranty,0.0,,11
 product_attribute_value_5_year_warranty_1_year_parts_and_labour_,"5 Year Warranty (1 Year Parts and Labour, Next 4 Years  Labour For Manufacturing Defects).",0,Jinasena_MasterData_Stock.product_attribute_warranty,0.0,,4

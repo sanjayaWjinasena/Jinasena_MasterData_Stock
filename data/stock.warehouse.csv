@@ -1,64 +1,64 @@
-id,name,active,company_id/id,code,reception_steps,delivery_steps,sequence,manufacture_to_resupply,manufacture_steps,buy_to_resupply
-stock_warehouse_retail_sales_counter_sp_sp_rc,Retail Sales Counter(Sp) - SP-RC,1,,SP-RC,one_step,ship_only,1,1,mrp_one_step,1
-stock_warehouse_casting_warehouse_cw_cm,Casting warehouse - CW-CM,1,,CW-CM,one_step,ship_only,2,1,mrp_one_step,1
-stock_warehouse_main_warehouse_mw_cm,Main warehouse - MW-CM,1,,MW-CM,one_step,ship_only,3,1,mrp_one_step,1
-stock_warehouse_oils_lubricants_warehouse_ow_ek,Oils & lubricants warehouse - OW-EK,1,,OW-EK,one_step,ship_only,4,1,mrp_one_step,1
-stock_warehouse_production_warehouse_pw_je,Production warehouse - PW-JE,1,,PW-JE,one_step,ship_only,6,1,mrp_one_step,
-stock_warehouse_production_warehouse_pw_mw,Production warehouse - PW-MW,1,,PW-MW,one_step,ship_only,7,1,mrp_one_step,
-stock_warehouse_raw_material_main_warehouse_rp_ek,Raw Material Main Warehouse - RP-EK,1,,RP-EK,one_step,ship_only,8,,mrp_one_step,1
-stock_warehouse_production_warehouse_pw_e1,Production warehouse - PW-E1,1,,PW-E1,one_step,ship_only,9,1,mrp_one_step,
-stock_warehouse_br_am_warehouse_for_ampara_sales_center,BR-AM - Warehouse for Ampara Sales Center,1,,BR-AM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_main_warehouse_raw_material_for_motors_m,Main warehouse - Raw material for motors - MW-JE,1,,MW-JE,one_step,ship_only,10,1,mrp_one_step,1
-stock_warehouse_production_warehouse_pw_jm,Production Warehouse - (PW-JM),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,PW-JM,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_repairs_warehouse_rp_jm,Repairs Warehouse - (RP-JM),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,RP-JM,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_branch_warehouse_ekala_br_ek,Branch Warehouse - Ekala(BR-EK),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-EK,one_step,ship_only,10,,mrp_one_step,
-stock_warehouse_production_warehouse_pumps_pw_e1,Production warehouse - Pumps (PW-E1),1,Jinasena_MasterData_Common.res_company_jltd,PW-E1,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_production_warehouse_plastic_pl_ek,Production warehouse - Plastic (PL-EK),1,Jinasena_MasterData_Common.res_company_jltd,PL-EK,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_production_warehouse_casting_mw_jc,Production warehouse - Casting (MW-JC),1,Jinasena_MasterData_Common.res_company_jltd,MW-JC,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_casting_warehouse_cw_cm_52,Casting warehouse -  (CW-CM),1,Jinasena_MasterData_Common.res_company_jltd,CW-CM,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_raw_material_warehouse_rp_ek,Raw Material Warehouse - (RP-EK),1,Jinasena_MasterData_Common.res_company_jltd,RP-EK,one_step,ship_only,10,1,mrp_one_step,1
-stock_warehouse_oils_lubricants_warehouse_ow_ek_54,Oils & lubricants warehouse - (OW-EK),1,Jinasena_MasterData_Common.res_company_jltd,OW-EK,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_production_warehouse_jem_department_pw_m,Production warehouse  JEM Department - (PW-MA),1,Jinasena_MasterData_Common.res_company_jltd,PW-MA,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_production_warehouse_motor_winding_assem,Production warehouse - Motor winding & assembly - (PW-JE),1,Jinasena_MasterData_Common.res_company_jltd,PW-JE,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_main_warehouse_primovers_mw_cm,Main warehouse(Primovers) - (MW-CM),1,Jinasena_MasterData_Common.res_company_jltd,MW-CM,one_step,ship_only,10,1,mrp_one_step,1
-stock_warehouse_main_warehouse_mw_ek,Main warehouse - MW-EK,1,Jinasena_MasterData_Common.res_company_jltd,MW-EK,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_main_warehouse_raw_material_for_motors_m_59,Main warehouse - Raw material for motors - (MW-JE),1,Jinasena_MasterData_Common.res_company_jltd,MW-JE,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_production_warehouse_motor_winding_pw_mw,Production warehouse Motor Winding - (PW-MW),1,Jinasena_MasterData_Common.res_company_jltd,PW-MW,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_repair_warehouse_colombo_rp_cm,Repair warehouse - Colombo (RP-CM),1,Jinasena_MasterData_Common.res_company_jltd,RP-CM,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_branch_warehouse_ekala_br_ek_62,Branch warehouse - Ekala (BR-EK),1,Jinasena_MasterData_Common.res_company_jltd,BR-EK,one_step,ship_only,10,,mrp_one_step,
-stock_warehouse_jam_warehouse_ekala_jm_ek,JAM Warehouse Ekala- (JM-EK),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,JM-EK,one_step,ship_only,10,1,mrp_one_step,1
-stock_warehouse_production_warehouse_for_machining_and_a,Production warehouse for Machining and Assembly of JEM - ( PW-MA ),1,,PW-MA,one_step,ship_only,10,1,mrp_one_step,
-stock_warehouse_plastic_warehouse_pl_ek,Plastic Warehouse - ( PL-EK ),1,,PL-EK,one_step,ship_only,10,1,mrp_one_step,1
-stock_warehouse_branch_warehouse_ampara,Branch warehouse - Ampara,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-AM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_anuradhapura,Branch warehouse - Anuradhapura,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-AN,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_avissawella,Branch warehouse - Avissawella,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-AV,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_bandarawela,Branch warehouse - Bandarawela,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-BA,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_beruwela,Branch warehouse - Beruwela,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-BE,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_buttala,Branch warehouse - Buttala,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-BU,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_dambulla,Branch warehouse - Dambulla,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-DA,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_embilipitiya,Branch warehouse - Embilipitiya,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-EM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_galle,Branch warehouse - Galle,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-GA,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_girandurukotte,Branch warehouse - Girandurukotte,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-GK,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_jaffna,Branch warehouse - Jaffna,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-JF,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_kandy,Branch warehouse - Kandy,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-KA,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_kaduruwela,Branch warehouse - Kaduruwela,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-KD,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_kurunegala,Branch warehouse - Kurunegala,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-KU,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_nuwara_eliya,Branch warehouse - Nuwara-Eliya,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-NE,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_branch_warehouse_thambuttegama,Branch warehouse - Thambuttegama,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,BR-TH,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_jam_scrap_warehouse,JAM Scrap Warehouse,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,RP-SC,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_research_and_development_jam_factory_eka,Research and Development JAM Factory Ekala,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,RD-JM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_retail_counter_waste_managementx,Retail Counter - Waste ManagementX,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,RC-WX,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_retail_counter_for_products_implements_a,"Retail Counter for Products, Implements And Accessories - Thimbirigasya",1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,RC-TM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_jam_non_moving_warehouse,JAM Non Moving Warehouse,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,JM-NM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_intransit_warehouse_jam,Intransit warehouse - JAM,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,IW-JM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_intransit_warehouse_embilipitiya,Intransit warehouse - Embilipitiya,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,IB-EM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_retail_counter_waste_management,Retail Counter - Waste Management,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,RC-WM,one_step,ship_only,10,,mrp_one_step,1
-stock_warehouse_tender_warehouse_head_office,Tender warehouse - Head Office,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,TD-HO,one_step,ship_only,10,1,mrp_one_step,1
-stock_warehouse_br_an_warehouse_for_anuradhapura_sales_c,BR-AN - Warehouse for Anuradhapura Sales Center,1,,BR-AN,one_step,ship_only,11,,mrp_one_step,1
-stock_warehouse_rc_tm_warehouse_for_colombo_sales_center,RC-TM - Warehouse for Colombo Sales Center,1,,RC-TM,one_step,ship_only,12,1,mrp_one_step,1
-stock_warehouse_main_warehouse_mw_ek_22,Main warehouse - MW-EK,1,,MW-EK,one_step,ship_only,14,,mrp_one_step,
-stock_warehouse_casting_department_mw_jc,Casting Department - MW-JC,1,,MW-JC,one_step,ship_only,16,1,mrp_one_step,
-stock_warehouse_repairs_warehouse_rp_cm,Repairs warehouse - RP-CM,1,,RP-CM,one_step,ship_only,18,1,mrp_one_step,1
-stock_warehouse_br_ek_warehouse_for_ekala_sales_center,BR-EK - Warehouse for Ekala Sales Center,1,,BR-EK,one_step,ship_only,19,,mrp_one_step,1
-stock_warehouse_quick_repairs_warehouse_rp_qu,Quick Repairs warehouse - RP-QU,1,,RP-QU,one_step,ship_only,20,1,mrp_one_step,1
-stock_warehouse_electrical_installation_projects_warehou,Electrical Installation Projects warehouse - PJ-EI,1,,PJ-EI,one_step,ship_only,21,,mrp_one_step,1
+id,name,active,company_id/id,partner_id/id,code,reception_steps,delivery_steps,sequence,manufacture_to_resupply,manufacture_steps,buy_to_resupply
+stock_warehouse_retail_sales_counter_sp_sp_rc,Retail Sales Counter(Sp) - SP-RC,1,base.main_company,base.main_partner,SP-RC,one_step,ship_only,1,1,mrp_one_step,1
+stock_warehouse_casting_warehouse_cw_cm,Casting warehouse - CW-CM,1,base.main_company,base.main_partner,CW-CM,one_step,ship_only,2,1,mrp_one_step,1
+stock_warehouse_main_warehouse_mw_cm,Main warehouse - MW-CM,1,base.main_company,base.main_partner,MW-CM,one_step,ship_only,3,1,mrp_one_step,1
+stock_warehouse_oils_lubricants_warehouse_ow_ek,Oils & lubricants warehouse - OW-EK,1,base.main_company,base.main_partner,OW-EK,one_step,ship_only,4,1,mrp_one_step,1
+stock_warehouse_production_warehouse_pw_je,Production warehouse - PW-JE,1,base.main_company,base.main_partner,PW-JE,one_step,ship_only,6,1,mrp_one_step,
+stock_warehouse_production_warehouse_pw_mw,Production warehouse - PW-MW,1,base.main_company,base.main_partner,PW-MW,one_step,ship_only,7,1,mrp_one_step,
+stock_warehouse_raw_material_main_warehouse_rp_ek,Raw Material Main Warehouse - RP-EK,1,base.main_company,base.main_partner,RP-EK,one_step,ship_only,8,,mrp_one_step,1
+stock_warehouse_production_warehouse_pw_e1,Production warehouse - PW-E1,1,base.main_company,base.main_partner,PW-E1,one_step,ship_only,9,1,mrp_one_step,
+stock_warehouse_br_am_warehouse_for_ampara_sales_center,BR-AM - Warehouse for Ampara Sales Center,1,base.main_company,base.main_partner,BR-AM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_main_warehouse_raw_material_for_motors_m,Main warehouse - Raw material for motors - MW-JE,1,base.main_company,base.main_partner,MW-JE,one_step,ship_only,10,1,mrp_one_step,1
+stock_warehouse_production_warehouse_pw_jm,Production Warehouse - (PW-JM),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,PW-JM,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_repairs_warehouse_rp_jm,Repairs Warehouse - (RP-JM),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,RP-JM,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_branch_warehouse_ekala_br_ek,Branch Warehouse - Ekala(BR-EK),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-EK,one_step,ship_only,10,,mrp_one_step,
+stock_warehouse_production_warehouse_pumps_pw_e1,Production warehouse - Pumps (PW-E1),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,PW-E1,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_production_warehouse_plastic_pl_ek,Production warehouse - Plastic (PL-EK),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,PL-EK,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_production_warehouse_casting_mw_jc,Production warehouse - Casting (MW-JC),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,MW-JC,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_casting_warehouse_cw_cm_52,Casting warehouse -  (CW-CM),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,CW-CM,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_raw_material_warehouse_rp_ek,Raw Material Warehouse - (RP-EK),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,RP-EK,one_step,ship_only,10,1,mrp_one_step,1
+stock_warehouse_oils_lubricants_warehouse_ow_ek_54,Oils & lubricants warehouse - (OW-EK),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,OW-EK,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_production_warehouse_jem_department_pw_m,Production warehouse  JEM Department - (PW-MA),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,PW-MA,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_production_warehouse_motor_winding_assem,Production warehouse - Motor winding & assembly - (PW-JE),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,PW-JE,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_main_warehouse_primovers_mw_cm,Main warehouse(Primovers) - (MW-CM),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,MW-CM,one_step,ship_only,10,1,mrp_one_step,1
+stock_warehouse_main_warehouse_mw_ek,Main warehouse - MW-EK,1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,MW-EK,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_main_warehouse_raw_material_for_motors_m_59,Main warehouse - Raw material for motors - (MW-JE),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,MW-JE,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_production_warehouse_motor_winding_pw_mw,Production warehouse Motor Winding - (PW-MW),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,PW-MW,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_repair_warehouse_colombo_rp_cm,Repair warehouse - Colombo (RP-CM),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,RP-CM,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_branch_warehouse_ekala_br_ek_62,Branch warehouse - Ekala (BR-EK),1,Jinasena_MasterData_Common.res_company_jltd,__export__.res_partner_511_72dcdb65,BR-EK,one_step,ship_only,10,,mrp_one_step,
+stock_warehouse_jam_warehouse_ekala_jm_ek,JAM Warehouse Ekala- (JM-EK),1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,JM-EK,one_step,ship_only,10,1,mrp_one_step,1
+stock_warehouse_production_warehouse_for_machining_and_a,Production warehouse for Machining and Assembly of JEM - ( PW-MA ),1,base.main_company,base.main_partner,PW-MA,one_step,ship_only,10,1,mrp_one_step,
+stock_warehouse_plastic_warehouse_pl_ek,Plastic Warehouse - ( PL-EK ),1,base.main_company,base.main_partner,PL-EK,one_step,ship_only,10,1,mrp_one_step,1
+stock_warehouse_branch_warehouse_ampara,Branch warehouse - Ampara,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-AM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_anuradhapura,Branch warehouse - Anuradhapura,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-AN,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_avissawella,Branch warehouse - Avissawella,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-AV,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_bandarawela,Branch warehouse - Bandarawela,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-BA,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_beruwela,Branch warehouse - Beruwela,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-BE,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_buttala,Branch warehouse - Buttala,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-BU,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_dambulla,Branch warehouse - Dambulla,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-DA,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_embilipitiya,Branch warehouse - Embilipitiya,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-EM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_galle,Branch warehouse - Galle,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-GA,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_girandurukotte,Branch warehouse - Girandurukotte,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-GK,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_jaffna,Branch warehouse - Jaffna,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-JF,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_kandy,Branch warehouse - Kandy,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-KA,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_kaduruwela,Branch warehouse - Kaduruwela,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-KD,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_kurunegala,Branch warehouse - Kurunegala,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-KU,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_nuwara_eliya,Branch warehouse - Nuwara-Eliya,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-NE,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_branch_warehouse_thambuttegama,Branch warehouse - Thambuttegama,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,BR-TH,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_jam_scrap_warehouse,JAM Scrap Warehouse,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,RP-SC,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_research_and_development_jam_factory_eka,Research and Development JAM Factory Ekala,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,RD-JM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_retail_counter_waste_managementx,Retail Counter - Waste ManagementX,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,RC-WX,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_retail_counter_for_products_implements_a,"Retail Counter for Products, Implements And Accessories - Thimbirigasya",1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,RC-TM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_jam_non_moving_warehouse,JAM Non Moving Warehouse,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,JM-NM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_intransit_warehouse_jam,Intransit warehouse - JAM,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,IW-JM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_intransit_warehouse_embilipitiya,Intransit warehouse - Embilipitiya,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,IB-EM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_retail_counter_waste_management,Retail Counter - Waste Management,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,RC-WM,one_step,ship_only,10,,mrp_one_step,1
+stock_warehouse_tender_warehouse_head_office,Tender warehouse - Head Office,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,__export__.res_partner_87_894ae6ca,TD-HO,one_step,ship_only,10,1,mrp_one_step,1
+stock_warehouse_br_an_warehouse_for_anuradhapura_sales_c,BR-AN - Warehouse for Anuradhapura Sales Center,1,base.main_company,base.main_partner,BR-AN,one_step,ship_only,11,,mrp_one_step,1
+stock_warehouse_rc_tm_warehouse_for_colombo_sales_center,RC-TM - Warehouse for Colombo Sales Center,1,base.main_company,base.main_partner,RC-TM,one_step,ship_only,12,1,mrp_one_step,1
+stock_warehouse_main_warehouse_mw_ek_22,Main warehouse - MW-EK,1,base.main_company,base.main_partner,MW-EK,one_step,ship_only,14,,mrp_one_step,
+stock_warehouse_casting_department_mw_jc,Casting Department - MW-JC,1,base.main_company,base.main_partner,MW-JC,one_step,ship_only,16,1,mrp_one_step,
+stock_warehouse_repairs_warehouse_rp_cm,Repairs warehouse - RP-CM,1,base.main_company,base.main_partner,RP-CM,one_step,ship_only,18,1,mrp_one_step,1
+stock_warehouse_br_ek_warehouse_for_ekala_sales_center,BR-EK - Warehouse for Ekala Sales Center,1,base.main_company,base.main_partner,BR-EK,one_step,ship_only,19,,mrp_one_step,1
+stock_warehouse_quick_repairs_warehouse_rp_qu,Quick Repairs warehouse - RP-QU,1,base.main_company,base.main_partner,RP-QU,one_step,ship_only,20,1,mrp_one_step,1
+stock_warehouse_electrical_installation_projects_warehou,Electrical Installation Projects warehouse - PJ-EI,1,base.main_company,base.main_partner,PJ-EI,one_step,ship_only,21,,mrp_one_step,1
