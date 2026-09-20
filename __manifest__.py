@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Jinasena : MasterData : Stock',
-    'version': '17.0.0.0.1',
+    'version': '17.0.0.0.2',
     'summary': 'Master-data extracted from CDB for Stock domain.',
     'description': 'Extracted from Clear-DB. Test-env master data. Edit the CSVs in data/ to add/remove rows before install.',
     'author': 'Jinasena Agricultural Machinery (Pvt) Ltd.',
