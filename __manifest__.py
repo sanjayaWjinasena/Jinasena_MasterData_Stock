@@ -25,6 +25,7 @@
         'data/stock.picking.type.csv',
         'data/stock.route.csv',
         'data/stock.rule.csv',
+        'data/account.analytic.account.link.csv',
     ],
     'installable': True,
     'auto_install': False,
