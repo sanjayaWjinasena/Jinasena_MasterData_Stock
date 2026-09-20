@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+{
+    'name': 'Jinasena : MasterData : Stock',
+    'version': '17.0.0.0.1',
+    'summary': 'Master-data extracted from CDB for Stock domain.',
+    'description': 'Extracted from Clear-DB. Test-env master data. Edit the CSVs in data/ to add/remove rows before install.',
+    'author': 'Jinasena Agricultural Machinery (Pvt) Ltd.',
+    'category': 'Extra Tools',
+    'license': 'LGPL-3',
+    'depends': [
+        'BugFix-Stock',
+        'Jinasena_MasterData_Common',
+        'Jinasena_MasterData_Accounting',
+    ],
+    'data': [
+        'data/uom_category.csv',
+        'data/uom_uom.csv',
+        'data/product_category.csv',
+        'data/product_attribute.csv',
+        'data/product_attribute_value.csv',
+        'data/product_template.csv',
+        'data/product_product.csv',
+        'data/stock_warehouse.csv',
+        'data/stock_location.csv',
+        'data/stock_picking_type.csv',
+        'data/stock_route.csv',
+        'data/stock_rule.csv',
+    ],
+    'installable': True,
+    'auto_install': False,
+    'application': False,
+}

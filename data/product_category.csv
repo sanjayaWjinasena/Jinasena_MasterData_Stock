@@ -1,0 +1,179 @@
+id,name,complete_name,parent_path,packaging_reserve_method,x_studio_company_id/id,x_studio_description
+product_category_co_ge_33,CO-GE-33,CO-GE-33,1785/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Components-General-GENERAL
+product_category_fa_mc_41,FA-MC-41,FA-MC-41,1673/,partial,,FIXED ASSETS-PLANT AND MACHINARY-IMPORTS
+product_category_fa_mc_41_1845,FA-MC-41,FA-MC-41,1845/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,FIXED ASSETS-PLANT AND MACHINARY-IMPORTS
+product_category_fg_4w_23,FG-4W-23,FG-4W-23,1846/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-4 WHL TRACTORS
+product_category_fg_4w_23_1674,FG-4W-23,FG-4W-23,1674/,partial,,Finished Goods-4 WHL TRACTORS
+product_category_fg_ba_06,FG-BA-06,FG-BA-06,1675/,partial,,Finished Goods-BARE SFT
+product_category_fg_bj_bl,FG-BJ-BL,FG-BJ-BL,1676/,partial,,Finished Goods - Bajaj - Lighting
+product_category_fg_bj_cf,FG-BJ-CF,FG-BJ-CF,1677/,partial,,Finished Goods - Bajaj - Ceiling Fan
+product_category_fg_bj_ci,FG-BJ-CI,FG-BJ-CI,1678/,partial,,Finished Goods - Bajaj - Induction Cooker
+product_category_fg_bj_cm,FG-BJ-CM,FG-BJ-CM,1679/,partial,,Finished Goods - Bajaj - Multifunction Cooker
+product_category_fg_bj_co,FG-BJ-CO,FG-BJ-CO,1680/,partial,,Finished Goods - Bajaj - Coolest
+product_category_fg_bj_cp,FG-BJ-CP,FG-BJ-CP,1681/,partial,,Finished Goods - Bajaj - Pressure Cooker
+product_category_fg_bj_gs,FG-BJ-GS,FG-BJ-GS,1682/,partial,,Finished Goods - Bajaj - Gas Stove
+product_category_fg_bj_ir,FG-BJ-IR,FG-BJ-IR,1683/,partial,,Finished Goods - Bajaj - Irons
+product_category_fg_bj_mg,FG-BJ-MG,FG-BJ-MG,1684/,partial,,Finished Goods - Bajaj - Mixer Grinder
+product_category_fg_bj_mx,FG-BJ-MX,FG-BJ-MX,1685/,partial,,Finished Goods - Bajaj - Mixers
+product_category_fg_bj_sl,FG-BJ-SL,FG-BJ-SL,1686/,partial,,Finished Goods - Bajaj - Lighting ( Solar )
+product_category_fg_bj_th,FG-BJ-TH,FG-BJ-TH,1687/,partial,,Finished Goods - Bajaj - Lighting ( Torch )
+product_category_fg_bj_wh,FG-BJ-WH,FG-BJ-WH,1688/,partial,,Finished Goods - Bajaj - Water Heaters
+product_category_fg_bo_08,FG-BO-08,FG-BO-08,1689/,partial,,Finished Goods-BORE HOLE
+product_category_fg_db_15,FG-DB-15,FG-DB-15,1690/,partial,,Finished Goods-DB KITS
+product_category_fg_di_05,FG-DI-05,FG-DI-05,1691/,partial,,Finished Goods-DIESEL ENGINE DRIVEN PRODUCTS
+product_category_fg_do_01,FG-DO-01,FG-DO-01,1692/,partial,,Finished Goods-DOMESTIC PUMPS
+product_category_fg_en_30,FG-EN-30,FG-EN-30,1693/,partial,,Finished Goods-ENGINES
+product_category_fg_en_30_1847,FG-EN-30,FG-EN-30,1847/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-ENGINES
+product_category_fg_ge_25,FG-GE-25,FG-GE-25,1694/,partial,,Finished Goods-GENERATORS
+product_category_fg_in_02,FG-IN-02,FG-IN-02,1695/,partial,,Finished Goods-INDUSTRIAL SINGLE PHASE
+product_category_fg_it_03,FG-IT-03,FG-IT-03,1696/,partial,,Finished Goods-INDUDSTRIALTHREE PHASE
+product_category_fg_je_sm,FG-JE-SM,FG-JE-SM,1697/,partial,,Finished Goods-Sale Motors - Manufactured in JEM Department
+product_category_fg_je_sm_1848,FG-JE-SM,FG-JE-SM,1848/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-Sale Motors - Manufactured in JEM Department
+product_category_fg_jp_63,FG-JP-63,FG-JP-63,1698/,partial,,Finished Goods-JPL PRODUCTS
+product_category_fg_ma_26,FG-MA-26,FG-MA-26,1699/,partial,,Finished Goods-MACHINES
+product_category_fg_ma_26_1849,FG-MA-26,FG-MA-26,1849/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-MACHINES
+product_category_fg_mo_24,FG-MO-24,FG-MO-24,1700/,partial,,Finished Goods-MOTOR BIKES
+product_category_fg_pe_04,FG-PE-04,FG-PE-04,1701/,partial,,Finished Goods-PETRO/ KERO
+product_category_fg_rc_09,FG-RC-09,FG-RC-09,1702/,partial,,Finished Goods-TRADING PRODUCTS
+product_category_fg_sr_14,FG-SR-14,FG-SR-14,1703/,partial,,Finished Goods-SRM
+product_category_fg_sw_cv,FG-SW-CV,FG-SW-CV,1704/,partial,,Finished Goods-SWIMMING POOL PUMPS-CV
+product_category_fg_sw_dc,FG-SW-DC,FG-SW-DC,1705/,partial,,Finished Goods-SWIMMING POOL PUMPS-DC
+product_category_fg_sw_dp,FG-SW-DP,FG-SW-DP,1706/,partial,,Finished Goods-SWIMMING POOL PUMPS-DP
+product_category_fg_sw_dw,FG-SW-DW,FG-SW-DW,1707/,partial,,Finished Goods-De-Watering/Pond Pumps-Showfou
+product_category_fg_sw_sf,FG-SW-SF,FG-SW-SF,1708/,partial,,Finished Goods-Submersible Sewage/Cutter pumps-Showfou/ HCP
+product_category_fg_sw_ts,FG-SW-TS,FG-SW-TS,1709/,partial,,Finished Goods-Submersible Sewage/Cutter Pumps-Tsurumi
+product_category_fg_sw_wc,FG-SW-WC,FG-SW-WC,1710/,partial,,Finished Goods-Swimming Pool Pumps-Waterco
+product_category_fg_th_20,FG-TH-20,FG-TH-20,1711/,partial,,Finished Goods-THRESHERS
+product_category_fg_th_20_1850,FG-TH-20,FG-TH-20,1850/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-THRESHERS
+product_category_fg_tl_22,FG-TL-22,FG-TL-22,1712/,partial,,Finished Goods-TRAILORS
+product_category_fg_tl_22_1851,FG-TL-22,FG-TL-22,1851/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-TRAILORS
+product_category_fg_tr_20,FG-TR-20,FG-TR-20,1713/,partial,,Finished Goods-THRESHERS
+product_category_fg_tr_20_1852,FG-TR-20,FG-TR-20,1852/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-THRESHERS
+product_category_fg_tr_22,FG-TR-22,FG-TR-22,1714/,partial,,Finished Goods-TRACTORS
+product_category_fg_tr_22_1853,FG-TR-22,FG-TR-22,1853/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-TRACTORS
+product_category_fg_wa_fl,FG-WA-FL,FG-WA-FL,1715/,partial,,Water filters - Water purification section
+product_category_mm_ge_50,MM-GE-50,MM-GE-50,1854/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Miscellaneous Materials-General-GENERAL
+product_category_mm_ge_50_1716,MM-GE-50,MM-GE-50,1716/,partial,,Miscellaneous Materials-General-GENERAL
+product_category_mo_fg_62,MO-FG-62,MO-FG-62,1717/,partial,,Moulds Manufactured/ Serviced/ Repaired by Die and Moulds Section - Ekala
+product_category_ra_je_pm,RA-JE-PM,RA-JE-PM,1718/,partial,,Repairs of Sub Sub Assembly-Pump Motors Manufactured in JEM Department
+product_category_rm_ge_01,RM-GE-01,RM-GE-01,1855/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-TOOLS
+product_category_rm_ge_01_1719,RM-GE-01,RM-GE-01,1719/,partial,,Raw Materials-General Items-TOOLS
+product_category_rm_ge_02_jam,RM-GE-02-JAM,RM-GE-02-JAM,1856/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-BARING
+product_category_rm_ge_02_jld,RM-GE-02-JLD,RM-GE-02-JLD,1720/,partial,,Raw Materials-General Items-BARING
+product_category_rm_ge_03,RM-GE-03,RM-GE-03,1857/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-TOOLS
+product_category_rm_ge_03_1721,RM-GE-03,RM-GE-03,1721/,partial,,Raw Materials-General Items-TOOLS
+product_category_rm_ge_04,RM-GE-04,RM-GE-04,1858/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-WELDING CONSUMABLES
+product_category_rm_ge_04_1722,RM-GE-04,RM-GE-04,1722/,partial,,Raw Materials-General Items-WELDING CONSUMABLES
+product_category_rm_ge_05,RM-GE-05,RM-GE-05,1723/,partial,,Raw Materials-General Items-ELECTRICAL GOODS
+product_category_rm_ge_05_1859,RM-GE-05,RM-GE-05,1859/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-ELECTRICAL GOODS
+product_category_rm_ge_06,RM-GE-06,RM-GE-06,1724/,partial,,Raw Materials-General Items-RUBBER GOODS
+product_category_rm_ge_06_1860,RM-GE-06,RM-GE-06,1860/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-RUBBER GOODS
+product_category_rm_ge_07,RM-GE-07,RM-GE-07,1725/,partial,,Raw Materials-General Items-STEEL
+product_category_rm_ge_07_1861,RM-GE-07,RM-GE-07,1861/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-STEEL
+product_category_rm_ge_08,RM-GE-08,RM-GE-08,1726/,partial,,Raw Materials-General Items-BELTS
+product_category_rm_ge_08_1862,RM-GE-08,RM-GE-08,1862/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-BELTS
+product_category_rm_ge_09,RM-GE-09,RM-GE-09,1863/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-PIPES & FITTINGS
+product_category_rm_ge_10,RM-GE-10,RM-GE-10,1728/,partial,,Raw Materials-General Items-FASTNERS
+product_category_rm_ge_10_1864,RM-GE-10,RM-GE-10,1864/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-FASTNERS
+product_category_rm_ge_11,RM-GE-11,RM-GE-11,1865/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-BRASS HARDWARE
+product_category_rm_ge_11_1729,RM-GE-11,RM-GE-11,1729/,partial,,Raw Materials-General Items-BRASS HARDWARE
+product_category_rm_ge_12,RM-GE-12,RM-GE-12,1866/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-RM-GE-14
+product_category_rm_ge_12_1730,RM-GE-12,RM-GE-12,1730/,partial,,Raw Materials-General Items-PACKING MATERIALS
+product_category_rm_ge_13,RM-GE-13,RM-GE-13,1731/,partial,,Raw Materials-General Items-ABRASIVES
+product_category_rm_ge_13_1867,RM-GE-13,RM-GE-13,1867/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-ABRASIVES
+product_category_rm_ge_14,RM-GE-14,RM-GE-14,1868/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-INTERNALLY MANUFACTURED
+product_category_rm_ge_14_1732,RM-GE-14,RM-GE-14,1732/,partial,,Raw Materials-General Items-INTERNALLY MANUFACTURED
+product_category_rm_ge_15,RM-GE-15,RM-GE-15,1869/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-SAFETY EQUIPMENT
+product_category_rm_ge_15_1733,RM-GE-15,RM-GE-15,1733/,partial,,Raw Materials-General Items-SAFETY EQUIPMENT
+product_category_rm_ge_16,RM-GE-16,RM-GE-16,1734/,partial,,Raw Materials-General Items-LABELS
+product_category_rm_ge_16_1870,RM-GE-16,RM-GE-16,1870/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-LABELS
+product_category_rm_ge_17,RM-GE-17,RM-GE-17,1871/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-CONSUMABLES
+product_category_rm_ge_17_1735,RM-GE-17,RM-GE-17,1735/,partial,,Raw Materials-General Items-CONSUMABLES
+product_category_rm_ge_18,RM-GE-18,RM-GE-18,1872/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-POLISHING MATERIALS
+product_category_rm_ge_18_1736,RM-GE-18,RM-GE-18,1736/,partial,,Raw Materials-General Items-POLISHING MATERIALS
+product_category_rm_ge_19,RM-GE-19,RM-GE-19,1737/,partial,,Raw Materials-General Items-DOMESTIC EQUIPMENT
+product_category_rm_ge_19_1873,RM-GE-19,RM-GE-19,1873/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-DOMESTIC EQUIPMENT
+product_category_rm_ge_20,RM-GE-20,RM-GE-20,1874/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-HOSES ETC.
+product_category_rm_ge_20_1738,RM-GE-20,RM-GE-20,1738/,partial,,Raw Materials-General Items-HOSES ETC.
+product_category_rm_ge_21,RM-GE-21,RM-GE-21,1875/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-ACCESSORIES & IMPLEMENTS
+product_category_rm_ge_21_1739,RM-GE-21,RM-GE-21,1739/,partial,,Raw Materials-General Items-ACCESSORIES & IMPLEMENTS
+product_category_rm_ge_23,RM-GE-23,RM-GE-23,1740/,partial,,Raw Materials-General Items-THRESHERS SPARES
+product_category_rm_ge_23_1876,RM-GE-23,RM-GE-23,1876/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-THRESHERS SPARES
+product_category_rm_ge_25,RM-GE-25,RM-GE-25,1741/,partial,,Raw Materials-General Items-PUMP ACCESSORIES
+product_category_rm_ge_25_1877,RM-GE-25,RM-GE-25,1877/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-PUMP ACCESSORIES
+product_category_rm_ge_26,RM-GE-26,RM-GE-26,1742/,partial,,Raw Materials-General Items-MACHINED CASTINGS
+product_category_rm_ge_26_1878,RM-GE-26,RM-GE-26,1878/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-MACHINED CASTINGS
+product_category_rm_ge_27,RM-GE-27,RM-GE-27,1743/,partial,,Raw Materials-General Items-PRIME MOVERS
+product_category_rm_ge_27_1879,RM-GE-27,RM-GE-27,1879/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-PRIME MOVERS
+product_category_rm_ge_28,RM-GE-28,RM-GE-28,1880/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,"Raw Materials-General Items-PAINTS, FUELS & LUBRIC"
+product_category_rm_ge_28_1744,RM-GE-28,RM-GE-28,1744/,partial,,"Raw Materials-General Items-PAINTS, FUELS & LUBRIC"
+product_category_rm_ge_29,RM-GE-29,RM-GE-29,1745/,partial,,Raw Materials-General Items-TRADINGS ITEMS
+product_category_rm_ge_29_1881,RM-GE-29,RM-GE-29,1881/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-TRADINGS ITEMS
+product_category_rm_ge_31,RM-GE-31,RM-GE-31,1882/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-RAW CASTINGS
+product_category_rm_ge_31_1746,RM-GE-31,RM-GE-31,1746/,partial,,Raw Materials-General Items-RAW CASTINGS
+product_category_rm_ge_36,RM-GE-36,RM-GE-36,1747/,partial,,Raw Materials-General Items-FIBRE OPTIC
+product_category_rm_ge_40,RM-GE-40,RM-GE-40,1883/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-General Items-STATIONARY
+product_category_rm_ge_40_1748,RM-GE-40,RM-GE-40,1748/,partial,,Raw Materials-General Items-STATIONARY
+product_category_rm_ge_42,RM-GE-42,RM-GE-42,1749/,partial,,Raw materials - Casting Raw Materials
+product_category_rm_ge_48,RM-GE-48,RM-GE-48,1884/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,( Not in use )
+product_category_rm_ge_ac,RM-GE-AC,RM-GE-AC,1885/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Accessories
+product_category_rm_ge_ac_1750,RM-GE-AC,RM-GE-AC,1750/,partial,,Accessories
+product_category_rm_ge_ar,RM-GE-AR,RM-GE-AR,1751/,partial,,Raw Materials-Spare Parts-SPARES AUTO-CREDIT
+product_category_rm_ge_as,RM-GE-AS,RM-GE-AS,1752/,partial,,Spare parts Auto Cash
+product_category_rm_ge_di,RM-GE-DI,RM-GE-DI,1753/,partial,,Raw Materials-Spare Parts-D-IRRI SPARES
+product_category_rm_ge_im,RM-GE-IM,RM-GE-IM,1886/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Implements
+product_category_rm_ge_im_1754,RM-GE-IM,RM-GE-IM,1754/,partial,,Implements
+product_category_rm_ge_on,RM-GE-ON,RM-GE-ON,1755/,partial,,Raw Materials-Spare Parts-OTHER SP-NH
+product_category_rm_ge_si,RM-GE-SI,RM-GE-SI,1756/,partial,,Drip Irrigation and Sprinkler Items (Trading)
+product_category_rm_ge_to,RM-GE-TO,RM-GE-TO,1757/,partial,,Raw Materials-Spare Parts-TOOLS
+product_category_rm_ge_wp,RM-GE-WP,RM-GE-WP,1758/,partial,,Raw Materials-General Items-WATER PURIFICATION ITEMS
+product_category_rm_sp_an,RM-SP-AN,RM-SP-AN,1759/,partial,,Raw Materials-Spare Parts-ANTON SPARES
+product_category_rm_sp_bj,RM-SP-BJ,RM-SP-BJ,1760/,partial,,Raw Materials-Spare Parts-BAJAJ SPARES
+product_category_rm_sp_bs,RM-SP-BS,RM-SP-BS,1761/,partial,,Raw Materials-Spare Parts-BIKE SPARES
+product_category_rm_sp_bt,RM-SP-BT,RM-SP-BT,1762/,partial,,Raw Materials-Spare Parts-BULK STORES TRACTOR SPARES
+product_category_rm_sp_ch,RM-SP-CH,RM-SP-CH,1763/,partial,,Raw Materials-Spare Parts-CHINESE SPARES-ENGINES
+product_category_rm_sp_ch_1887,RM-SP-CH,RM-SP-CH,1887/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-Spare Parts-CHINESE SPARES-ENGINES
+product_category_rm_sp_cv,RM-SP-CV,RM-SP-CV,1764/,partial,,Raw Materials-Spare Parts-CULTV SPARES
+product_category_rm_sp_cv_1888,RM-SP-CV,RM-SP-CV,1888/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-Spare Parts-CULTV SPARES
+product_category_rm_sp_dd,RM-SP-DD,RM-SP-DD,1765/,partial,,Raw Materials-Spare Parts-DUETZ DITTER
+product_category_rm_sp_ds,RM-SP-DS,RM-SP-DS,1766/,partial,,Raw Materials-Spare Parts-DENYO SPARES
+product_category_rm_sp_eo,RM-SP-EO,RM-SP-EO,1767/,partial,,Raw Materials-Spare Parts-EKALA OIL & LUBRICANTS (EOL)
+product_category_rm_sp_nh,RM-SP-NH,RM-SP-NH,1768/,partial,,Raw Materials-Spare Parts-NEW HOLLAND
+product_category_rm_sp_ob,RM-SP-OB,RM-SP-OB,1769/,partial,,Raw Materials-Spare Parts-OB-ENG SPARES
+product_category_rm_sp_rs,RM-SP-RS,RM-SP-RS,1889/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-Spare Parts-ROBIN SPARES
+product_category_rm_sp_rs_1770,RM-SP-RS,RM-SP-RS,1770/,partial,,Raw Materials-Spare Parts-ROBIN SPARES
+product_category_rm_sp_ss_jam,RM-SP-SS-JAM,RM-SP-SS-JAM,1890/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-Spare Parts-Spares Stores
+product_category_rm_sp_ss_jld,RM-SP-SS-JLD,RM-SP-SS-JLD,1771/,partial,,Raw Materials-Spare Parts-SPARES STORES
+product_category_rm_sp_tr,RM-SP-TR,RM-SP-TR,1891/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-Spare Parts-TRACTOR SPARES
+product_category_rm_sp_tr_1772,RM-SP-TR,RM-SP-TR,1772/,partial,,Raw Materials-Spare Parts-TRACTOR SPARES
+product_category_rm_sp_ys,RM-SP-YS,RM-SP-YS,1892/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Raw Materials-Spare Parts-YANMAR SPARES
+product_category_rm_sp_ys_1773,RM-SP-YS,RM-SP-YS,1773/,partial,,Raw Materials-Spare Parts-YANMAR SPARES
+product_category_rp_4w_23,RP-4W-23,RP-4W-23,1893/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-4 WHL TRACTORS
+product_category_rp_ge_im,RP-GE-IM,RP-GE-IM,1894/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Implements ( Repair )
+product_category_rp_ma_26,RP-MA-26,RP-MA-26,1895/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-MACHINES
+product_category_rp_th_20,RP-TH-20,RP-TH-20,1896/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-THRESHERS
+product_category_rp_tl_22,RP-TL-22,RP-TL-22,1897/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-TRAILORS
+product_category_rp_tr_22,RP-TR-22,RP-TR-22,1898/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Finished Goods-TRACTORS
+product_category_rs_je_pm,RS-JE-PM,RS-JE-PM,1774/,partial,,Repairs of Sub Assembly-Pump Motors Manufactured in JEM Department
+product_category_sa_ge_25,SA-GE-25,SA-GE-25,1775/,partial,,Sub Assembly - Motor Winding
+product_category_sa_ge_32,SA-GE-32,SA-GE-32,1899/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Sub Assembly-Sub Assemblies-GENERAL
+product_category_sa_ge_32_1776,SA-GE-32,SA-GE-32,1776/,partial,,Sub Assembly-Sub Assemblies-GENERAL
+product_category_sa_ge_ac,SA-GE-AC,SA-GE-AC,1777/,partial,,Sub Assembly - Accessory
+product_category_sa_ge_ac_1900,SA-GE-AC,SA-GE-AC,1900/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Sub Assembly - Accessory
+product_category_sa_ge_im,SA-GE-IM,SA-GE-IM,1778/,partial,,Sub Assembly - Implements
+product_category_sa_ge_im_1901,SA-GE-IM,SA-GE-IM,1901/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Sub Assembly - Implements
+product_category_sa_je_pm,SA-JE-PM,SA-JE-PM,1779/,partial,,Sub Assembly-Pump Motors Manufactured in JEM Department
+product_category_ss_ge_34,SS-GE-34,SS-GE-34,1902/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Sub Sub Assembly-General-GENERAL
+product_category_ss_ge_34_1780,SS-GE-34,SS-GE-34,1780/,partial,,Sub Sub Assembly-General-GENERAL
+product_category_ss_je_pm,SS-JE-PM,SS-JE-PM,1781/,partial,,Sub Sub Assembly-Pump Motors Manufactured in JEM Department
+product_category_sv_lb_60,SV-LB-60,SV-LB-60,1903/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,SERVICES - SERVICES AND LABOUR CHARGES
+product_category_sv_lb_60_1782,SV-LB-60,SV-LB-60,1782/,partial,,SERVICES - SERVICES AND LABOUR CHARGES
+product_category_sv_lc_61,SV-LC-61,SV-LC-61,1906/,partial,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,Landed Costs
+product_category_sv_lc_61_1908,SV-LC-61,SV-LC-61,1908/,partial,,Landed Costs
+product_category_sv_tr_61,SV-TR-61,SV-TR-61,1783/,partial,,SERVICES-VEHICLE REGISTRATION IN RMV
+product_category_wl_gr_01,WL-GR-01,WL-GR-01,1784/,partial,,Welfare shop Grocery items
+product_category_x7,X7,X7,451/,partial,Jinasena_MasterData_Common.res_company_jltd,
+product_category_x8,X8,X8,437/,partial,Jinasena_MasterData_Common.res_company_jltd,
+product_category_x9,X9,X9,439/,partial,Jinasena_MasterData_Common.res_company_jltd,
+product_category_01bc_030_wire_wheel_brush_150x30m,[01BC 030] WIRE WHEEL  BRUSH 150X30m,[01BC 030] WIRE WHEEL  BRUSH 150X30m,1909/,partial,,
+product_category_01bc_030_wire_wheel_brush_150x30mm,[01BC 030] WIRE WHEEL  BRUSH 150X30mm,[01BC 030] WIRE WHEEL  BRUSH 150X30mm,1910/,partial,,
