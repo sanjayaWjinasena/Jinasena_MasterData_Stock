@@ -20,7 +20,6 @@
         'data/product.attribute.value.csv',
         'data/product.template.csv',
         'data/stock.location.csv',
-        'data/stock.picking.type.csv',
         'data/stock.route.csv',
         'data/stock.rule.csv',
         'data/link/product.attribute.csv',
