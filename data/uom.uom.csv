@@ -57,7 +57,6 @@ uom_uom_pad,pad,uom.product_uom_categ_unit,1.0,0.0001,1,smaller
 uom_uom_can,can,uom.product_uom_categ_unit,1.0,0.0001,1,smaller
 uom_uom_crtg,crtg,Jinasena_MasterData_Stock.uom_category_unsorted,1.0,0.01,1,reference
 uom_uom_pkt,pkt,uom.product_uom_categ_unit,1.0,0.0001,1,smaller
-uom_uom_kg,KG,Jinasena_MasterData_Stock.uom_category_unsorted_imported_units,1.0,0.0001,1,reference
 uom_uom_tin,tin,uom.product_uom_categ_unit,1.0,0.0001,1,smaller
 uom_uom_sqm,sqm,uom.uom_categ_surface,1.0,0.0001,1,smaller
 uom_uom_lnk,lnk,uom.product_uom_categ_unit,1.0,0.0001,1,smaller
