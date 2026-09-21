@@ -24,7 +24,6 @@
         'data/stock.route.csv',
         'data/stock.rule.csv',
         'data/link/product.attribute.csv',
-        'data/link/stock.picking.type.csv',
     ],
     'installable': True,
     'auto_install': False,
