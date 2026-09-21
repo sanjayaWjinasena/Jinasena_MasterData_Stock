@@ -21,7 +21,6 @@
         'data/product.template.csv',
         'data/stock.location.csv',
         'data/stock.route.csv',
-        'data/stock.rule.csv',
         'data/link/product.attribute.csv',
     ],
     'installable': True,
