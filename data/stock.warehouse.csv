@@ -1,0 +1,50 @@
+id,name,code,company_id/id,active,sequence
+stock_warehouse_cw_cm_1,Casting warehouse - CW-CM,CW-CM,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,2
+stock_warehouse_mw_cm_1,Main warehouse - MW-CM,MW-CM,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,3
+stock_warehouse_ow_ek_1,Oils & lubricants warehouse - OW-EK,OW-EK,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,4
+stock_warehouse_sp_rc_1,Retail Sales Counter(Sp) - SP-RC,SP-RC,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,1
+stock_warehouse_pw_je_1,Production warehouse - PW-JE,PW-JE,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,6
+stock_warehouse_pw_mw_1,Production warehouse - PW-MW,PW-MW,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,7
+stock_warehouse_pw_e1_1,Production warehouse - PW-E1,PW-E1,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,9
+stock_warehouse_rp_ek_1,Raw Material Main Warehouse - RP-EK,RP-EK,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,8
+stock_warehouse_br_am_1,BR-AM - Warehouse for Ampara Sales Center,BR-AM,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,10
+stock_warehouse_br_an_1,BR-AN - Warehouse for Anuradhapura Sales Center,BR-AN,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,11
+stock_warehouse_rc_tm_1,RC-TM - Warehouse for Colombo Sales Center,RC-TM,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,12
+stock_warehouse_mw_ek_1,Main warehouse - MW-EK,MW-EK,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,14
+stock_warehouse_mw_jc_1,Casting Department - MW-JC,MW-JC,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,16
+stock_warehouse_rp_cm_1,Repairs warehouse - RP-CM,RP-CM,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,18
+stock_warehouse_br_ek_1,BR-EK - Warehouse for Ekala Sales Center,BR-EK,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,19
+stock_warehouse_rp_qu_1,Quick Repairs warehouse - RP-QU,RP-QU,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,20
+stock_warehouse_pj_ei_1,Electrical Installation Projects warehouse - PJ-EI,PJ-EI,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,21
+stock_warehouse_mw_je_1,Main warehouse - Raw material for motors - MW-JE,MW-JE,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,10
+stock_warehouse_pw_ma_1,Production warehouse for Machining and Assembly of JEM - ( PW-MA ),PW-MA,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,10
+stock_warehouse_pl_ek_1,Plastic Warehouse - ( PL-EK ),PL-EK,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,10
+stock_warehouse_pw_jm_2,Production Warehouse - (PW-JM),PW-JM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_rp_jm_2,Repairs Warehouse - (RP-JM),RP-JM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_ek_2,Branch Warehouse - Ekala(BR-EK),BR-EK,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_jm_ek_2,JAM Warehouse Ekala- (JM-EK),JM-EK,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_am_2,Branch warehouse - Ampara,BR-AM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_an_2,Branch warehouse - Anuradhapura,BR-AN,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_av_2,Branch warehouse - Avissawella,BR-AV,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_ba_2,Branch warehouse - Bandarawela,BR-BA,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_be_2,Branch warehouse - Beruwela,BR-BE,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_bu_2,Branch warehouse - Buttala,BR-BU,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_da_2,Branch warehouse - Dambulla,BR-DA,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_em_2,Branch warehouse - Embilipitiya,BR-EM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_ga_2,Branch warehouse - Galle,BR-GA,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_gk_2,Branch warehouse - Girandurukotte,BR-GK,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_jf_2,Branch warehouse - Jaffna,BR-JF,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_ka_2,Branch warehouse - Kandy,BR-KA,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_kd_2,Branch warehouse - Kaduruwela,BR-KD,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_ku_2,Branch warehouse - Kurunegala,BR-KU,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_ne_2,Branch warehouse - Nuwara-Eliya,BR-NE,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_br_th_2,Branch warehouse - Thambuttegama,BR-TH,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_rp_sc_2,JAM Scrap Warehouse,RP-SC,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_rd_jm_2,Research and Development JAM Factory Ekala,RD-JM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_rc_wx_2,Retail Counter - Waste ManagementX,RC-WX,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_rc_tm_2,"Retail Counter for Products, Implements And Accessories - Thimbirigasya",RC-TM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_jm_nm_2,JAM Non Moving Warehouse,JM-NM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_iw_jm_2,Intransit warehouse - JAM,IW-JM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_ib_em_2,Intransit warehouse - Embilipitiya,IB-EM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_rc_wm_2,Retail Counter - Waste Management,RC-WM,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10
+stock_warehouse_td_ho_2,Tender warehouse - Head Office,TD-HO,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10

@@ -1,0 +1,26 @@
+id,name,usage,location_id/id,company_id/id,active,scrap_location,return_location,barcode,posx,posy,posz
+stock_location_br_ek_1015,BR-EK,internal,,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,,0,0,0
+stock_location_inter_warehouse_transit_13,Inter-warehouse transit,transit,stock.stock_location_locations,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_inter_warehouse_transit_193,Inter-warehouse transit,transit,stock.stock_location_locations,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,,0,0,0
+stock_location_br_ek_536,BR-EK,internal,stock_location_inter_warehouse_transit_193,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,,0,0,0
+stock_location_subcontracting_location_386,Subcontracting Location,internal,stock.stock_location_locations,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,,0,0,0
+stock_location_subcontracting_location_387,Subcontracting Location,internal,stock.stock_location_locations,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_rp_ek_transit_190,RP-EK/Transit,internal,,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_test_726,TEST,view,stock.stock_location_locations,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,,0,0,0
+stock_location_stock_727,Stock,internal,stock_location_test_726,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,TEST-STOCK,0,0,0
+stock_location_tv_sc_406,TV-SC,view,stock.stock_location_locations,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_inventory_adjustment_14,Inventory adjustment,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_inventory_adjustment_194,Inventory adjustment,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,,0,0,0
+stock_location_mj_385,MJ,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_mr_205,MR,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_production_15,Production,production,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_production_195,Production,production,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,0,,0,0,0
+stock_location_production_256,Production,internal,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,0,,0,0,0
+stock_location_repair_br_av_1017,Repair/BR-AV,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,1,,0,0,0
+stock_location_repair_br_ne_1016,Repair/BR-NE,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,1,,0,0,0
+stock_location_repair_colombo_255,Repair/Colombo,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,1,,0,0,0
+stock_location_repair_ekala_389,Repair/Ekala,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,1,,0,0,0
+stock_location_repair_ekala_667,Repair/Ekala,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,0,1,,0,0,0
+stock_location_repair_rp_qu_415,Repair/RP-QU,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,0,1,,0,0,0
+stock_location_scrap_16,Scrap,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_pvt_ltd,1,1,0,,0,0,0
+stock_location_scrap_196,Scrap,inventory,stock.stock_location_locations_virtual,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,1,0,,0,0,0
