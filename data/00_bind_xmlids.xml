@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!--
+            Runs BEFORE the CSV data files below in manifest order.
+            Binds our xmlids to pre-existing stock.warehouse and stock.location
+            rows (auto-created by Odoo on company setup) so subsequent CSV
+            load performs UPDATE-in-place instead of INSERT that would
+            violate the (name, company_id) unique constraint.
+        -->
+        <function model="ir.model.data" name="_jinasena_stock_bind_existing_rows"/>
+    </data>
+</odoo>
