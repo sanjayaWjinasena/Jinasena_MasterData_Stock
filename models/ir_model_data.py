@@ -32,15 +32,7 @@ class IrModelData(models.Model):
             csv_path=os.path.join(data_dir, 'stock.warehouse.csv'),
             match_fields=[('name', 'name'), ('company_id', 'company_id/id')],
         )
-        self._jinasena_stock_bind_one(
-            model='stock.location',
-            csv_path=os.path.join(data_dir, 'stock.location.csv'),
-            match_fields=[
-                ('name', 'name'),
-                ('company_id', 'company_id/id'),
-                ('location_id', 'location_id/id'),
-            ],
-        )
+        # stock.location bind disabled together with location CSV (v0.0.6)
         return True
 
     @api.model
