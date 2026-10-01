@@ -27,10 +27,17 @@ class IrModelData(models.Model):
         module_root = os.path.dirname(os.path.dirname(__file__))
         data_dir = os.path.join(module_root, 'data')
 
+        # v0.0.8: match on (code, company) not (name, company). Codes are
+        # 3-5 char stable identifiers (PW-JM, CW-CM) that match CDB↔target
+        # verbatim. Names drifted on 14 of 63 warehouses in v0.0.7, causing
+        # new INSERTs → auto-child-location-create → barcode collisions on
+        # existing target stock.location rows. Rows already bound by (name,
+        # company) in v0.0.7 keep their binding (xmlid-existence skip at
+        # line 51-53 below).
         self._jinasena_stock_bind_one(
             model='stock.warehouse',
             csv_path=os.path.join(data_dir, 'stock.warehouse.csv'),
-            match_fields=[('name', 'name'), ('company_id', 'company_id/id')],
+            match_fields=[('code', 'code'), ('company_id', 'company_id/id')],
         )
         # v0.0.7: stock.location bind re-enabled. Match on (name, location_id,
         # company_id) — Odoo auto-creates WH/Stock, WH/Input, WH/Output etc.
