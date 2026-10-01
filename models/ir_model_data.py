@@ -39,10 +39,18 @@ class IrModelData(models.Model):
             csv_path=os.path.join(data_dir, 'stock.warehouse.csv'),
             match_fields=[('code', 'code'), ('company_id', 'company_id/id')],
         )
-        # v0.0.7: stock.location bind re-enabled. Match on (name, location_id,
-        # company_id) — Odoo auto-creates WH/Stock, WH/Input, WH/Output etc.
-        # per warehouse, so (name, company) alone is ambiguous when the same
-        # warehouse name exists under both Jinasena companies.
+        # v0.0.9: stock.location bind — two-pass strategy.
+        # Pass 1: for rows with non-empty barcode, bind by (barcode, company_id).
+        # These correspond to Odoo-auto-created WH/Stock etc. locations whose
+        # (barcode, company_id) is enforced UNIQUE by stock_location_barcode_company_uniq.
+        # Avoids chicken-and-egg where parent location_id xmlid isn't bound yet.
+        # Pass 2: remaining (barcode-less) rows bind by (name, location_id, company_id).
+        self._jinasena_stock_bind_one(
+            model='stock.location',
+            csv_path=os.path.join(data_dir, 'stock.location.csv'),
+            match_fields=[('barcode', 'barcode'), ('company_id', 'company_id/id')],
+            skip_rows_lacking=['barcode'],
+        )
         self._jinasena_stock_bind_one(
             model='stock.location',
             csv_path=os.path.join(data_dir, 'stock.location.csv'),
@@ -55,10 +63,11 @@ class IrModelData(models.Model):
         return True
 
     @api.model
-    def _jinasena_stock_bind_one(self, model, csv_path, match_fields):
+    def _jinasena_stock_bind_one(self, model, csv_path, match_fields, skip_rows_lacking=None):
         if not os.path.exists(csv_path):
             _logger.warning('[%s] CSV missing: %s', MODULE, csv_path)
             return
+        skip_rows_lacking = skip_rows_lacking or []
         IMD = self.sudo()
         Model = self.env[model].sudo()
         bound = 0
@@ -66,6 +75,9 @@ class IrModelData(models.Model):
         for row in _read_csv(csv_path):
             xmlid = row.get('id')
             if not xmlid:
+                continue
+            # v0.0.9: skip rows missing a required CSV column (e.g. no barcode)
+            if any(not row.get(col, '') for col in skip_rows_lacking):
                 continue
             already = IMD.search([('module', '=', MODULE), ('name', '=', xmlid)], limit=1)
             if already:
