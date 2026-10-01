@@ -32,7 +32,19 @@ class IrModelData(models.Model):
             csv_path=os.path.join(data_dir, 'stock.warehouse.csv'),
             match_fields=[('name', 'name'), ('company_id', 'company_id/id')],
         )
-        # stock.location bind disabled together with location CSV (v0.0.6)
+        # v0.0.7: stock.location bind re-enabled. Match on (name, location_id,
+        # company_id) — Odoo auto-creates WH/Stock, WH/Input, WH/Output etc.
+        # per warehouse, so (name, company) alone is ambiguous when the same
+        # warehouse name exists under both Jinasena companies.
+        self._jinasena_stock_bind_one(
+            model='stock.location',
+            csv_path=os.path.join(data_dir, 'stock.location.csv'),
+            match_fields=[
+                ('name', 'name'),
+                ('location_id', 'location_id/id'),
+                ('company_id', 'company_id/id'),
+            ],
+        )
         return True
 
     @api.model
