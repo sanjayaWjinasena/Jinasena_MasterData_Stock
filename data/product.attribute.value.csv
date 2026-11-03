@@ -1,0 +1,84 @@
+id,attribute_id/id,name,sequence,is_custom,html_color,color,default_extra_price
+product_attribute_value_1_4_hp,Jinasena_MasterData_Stock.product_attribute_power,1/4 HP,0,1,,5,0.0
+product_attribute_value_1_2_hp,Jinasena_MasterData_Stock.product_attribute_power,1/2 HP,1,,,5,0.0
+product_attribute_value_3_4_hp,Jinasena_MasterData_Stock.product_attribute_power,3/4 HP,2,,,5,0.0
+product_attribute_value_1_hp,Jinasena_MasterData_Stock.product_attribute_power,1 HP,3,,,5,0.0
+product_attribute_value_1_5_hp,Jinasena_MasterData_Stock.product_attribute_power,1.5 HP,4,,,5,0.0
+product_attribute_value_2_hp,Jinasena_MasterData_Stock.product_attribute_power,2 HP,5,,,5,0.0
+product_attribute_value_1_phase,Jinasena_MasterData_Stock.product_attribute_phase,1 Phase,0,,,4,0.0
+product_attribute_value_3_phase,Jinasena_MasterData_Stock.product_attribute_phase,3 Phase,0,,,11,0.0
+product_attribute_value_3_4,Jinasena_MasterData_Stock.product_attribute_tube_size,"3/4""",0,,,5,0.0
+product_attribute_value_3000_imp_g_p_h,Jinasena_MasterData_Stock.product_attribute_output,3000 Imp.G.P.H,0,,,11,0.0
+product_attribute_value_brass,Jinasena_MasterData_Stock.product_attribute_impeller,Brass,0,,,9,0.0
+product_attribute_value_2800,Jinasena_MasterData_Stock.product_attribute_speed_rpm,2800,0,,,8,0.0
+product_attribute_value_d140vh7,Jinasena_MasterData_Stock.product_attribute_code_no,D140VH7,0,,,10,0.0
+product_attribute_value_3_hp,Jinasena_MasterData_Stock.product_attribute_power,3 HP,6,,,11,0.0
+product_attribute_value_40ft_65ft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,40ft - 65ft,0,,,6,0.0
+product_attribute_value_65ft_80ft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,65ft - 80ft,0,,,5,0.0
+product_attribute_value_80ft_100ft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,80ft - 100ft,0,,,2,0.0
+product_attribute_value_100ft_150ft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,100ft - 150ft,0,,,7,0.0
+product_attribute_value_150ft_200ft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,150ft - 200ft,0,,,9,0.0
+product_attribute_value_200ft_250ft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,200ft - 250ft,0,,,4,0.0
+product_attribute_value_sinhala,Jinasena_MasterData_Stock.product_attribute_user_manual,Sinhala,0,,,9,0.0
+product_attribute_value_anon,Jinasena_MasterData_Stock.product_attribute_user_manual,/,0,,,7,0.0
+product_attribute_value_1,Jinasena_MasterData_Stock.product_attribute_tube_size,"1""",1,,,4,0.0
+product_attribute_value_1_5,Jinasena_MasterData_Stock.product_attribute_tube_size,"1.5""",2,,,1,0.0
+product_attribute_value_2,Jinasena_MasterData_Stock.product_attribute_tube_size,"2""",3,,,3,0.0
+product_attribute_value_75000,Jinasena_MasterData_Stock.product_attribute_price,75000,0,,,2,0.0
+product_attribute_value_user_manual,Jinasena_MasterData_Stock.product_attribute_user_manual,User Manual,0,,,1,0.0
+product_attribute_value_cast_iron,Jinasena_MasterData_Stock.product_attribute_impeller,Cast Iron,1,,,9,0.0
+product_attribute_value_engineering_plastics,Jinasena_MasterData_Stock.product_attribute_impeller,Engineering plastics,2,,,5,0.0
+product_attribute_value_stainless_steel,Jinasena_MasterData_Stock.product_attribute_impeller,Stainless Steel,3,,,4,0.0
+product_attribute_value_fire_fighting,Jinasena_MasterData_Stock.product_attribute_application,Fire-Fighting,2,,,10,0.0
+product_attribute_value_high_pressure,Jinasena_MasterData_Stock.product_attribute_application,High Pressure,5,,,2,0.0
+product_attribute_value_agro_irrigation,Jinasena_MasterData_Stock.product_attribute_application,Agro & Irrigation,0,,,2,0.0
+product_attribute_value_home_water_supply,Jinasena_MasterData_Stock.product_attribute_application,Home Water Supply,6,,,7,0.0
+product_attribute_value_10_200_imp_g_p_h,Jinasena_MasterData_Stock.product_attribute_output,"10,200 Imp.G.P.H",0,,,7,0.0
+product_attribute_value_d130vh14,Jinasena_MasterData_Stock.product_attribute_code_no,D130VH14,0,,,7,0.0
+product_attribute_value_2890,Jinasena_MasterData_Stock.product_attribute_speed_rpm,2890,0,,,5,0.0
+product_attribute_value_3,Jinasena_MasterData_Stock.product_attribute_tube_size,3,0,,,6,0.0
+product_attribute_value_7_5hp,Jinasena_MasterData_Stock.product_attribute_power,7.5HP,0,,,5,0.0
+product_attribute_value_7_5_hp,Jinasena_MasterData_Stock.product_attribute_power,7.5 HP,0,,,3,0.0
+product_attribute_value_9_600_imp_g_p_h,Jinasena_MasterData_Stock.product_attribute_output,"9,600 Imp.G.P.H",0,,,9,0.0
+product_attribute_value_2930,Jinasena_MasterData_Stock.product_attribute_speed_rpm,2930,0,,,11,0.0
+product_attribute_value_d159vh15,Jinasena_MasterData_Stock.product_attribute_code_no,D159VH15,0,,,6,0.0
+product_attribute_value_general_water_supply,Jinasena_MasterData_Stock.product_attribute_application,General Water Supply,4,,,4,0.0
+product_attribute_value_high_head_water_supply,Jinasena_MasterData_Stock.product_attribute_application,High-head Water Supply,7,,,4,0.0
+product_attribute_value_hvac,Jinasena_MasterData_Stock.product_attribute_application,HVAC,8,,,10,0.0
+product_attribute_value_process_circulation,Jinasena_MasterData_Stock.product_attribute_application,Process Circulation,10,,,6,0.0
+product_attribute_value_flood_control,Jinasena_MasterData_Stock.product_attribute_application,Flood Control,3,,,9,0.0
+product_attribute_value_constructions,Jinasena_MasterData_Stock.product_attribute_application,Constructions,1,,,9,0.0
+product_attribute_value_ornamental_featuring,Jinasena_MasterData_Stock.product_attribute_application,Ornamental Featuring,9,,,2,0.0
+product_attribute_value_58wft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,58Wft,0,,,2,0.0
+product_attribute_value_773lpm,Jinasena_MasterData_Stock.product_attribute_output,773Lpm,0,,,9,0.0
+product_attribute_value_1_x_1,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,1 x 1,0,,,2,0.0
+product_attribute_value_17_7m,Jinasena_MasterData_Stock.product_attribute_max_head_ft,17.7m,0,,,9,0.0
+product_attribute_value_13hp,Jinasena_MasterData_Stock.product_attribute_power,13HP,0,,,5,0.0
+product_attribute_value_150wft,Jinasena_MasterData_Stock.product_attribute_max_head_ft,150Wft,0,,,4,0.0
+product_attribute_value_758lpm,Jinasena_MasterData_Stock.product_attribute_output,758Lpm,0,,,1,0.0
+product_attribute_value_2930_rpm,Jinasena_MasterData_Stock.product_attribute_speed_rpm,2930 rpm,0,,,10,0.0
+product_attribute_value_d194vh11_5,Jinasena_MasterData_Stock.product_attribute_code_no,D194VH11.5,0,,,8,0.0
+product_attribute_value_swimming_pool_water_circulation,Jinasena_MasterData_Stock.product_attribute_application,Swimming pool water circulation,0,,,9,0.0
+product_attribute_value_cooling_tower,Jinasena_MasterData_Stock.product_attribute_application,Cooling tower,0,,,10,0.0
+product_attribute_value_sprinkler_pop_ups_rain_gun,Jinasena_MasterData_Stock.product_attribute_application,Sprinkler /Pop-ups / Rain gun,0,,,1,0.0
+product_attribute_value_chilled_water_circulation,Jinasena_MasterData_Stock.product_attribute_application,Chilled water circulation,0,,,1,0.0
+product_attribute_value_lift_irrigation,Jinasena_MasterData_Stock.product_attribute_application,Lift irrigation,0,,,4,0.0
+product_attribute_value_1_1_2_x_1_1_4,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,1 1/2  x 1 1/4,1,,,10,0.0
+product_attribute_value_2_x_2,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,2 x 2,3,,,3,0.0
+product_attribute_value_3_x_3,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,3 x 3,4,,,3,0.0
+product_attribute_value_1_1_2_x_1_1_2,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,1 1/2 x 1 1/2,2,,,10,0.0
+product_attribute_value_4_x_3,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,4 x 3,5,,,5,0.0
+product_attribute_value_10,Jinasena_MasterData_Stock.product_attribute_max_head,10,0,,,8,0.0
+product_attribute_value_50,Jinasena_MasterData_Stock.product_attribute_max_head,50,1,,,1,0.0
+product_attribute_value_10_100,website_sale.product_attribute_brand,10-100,0,,,10,0.0
+product_attribute_value_4_x_4,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,4 x 4,0,,,7,0.0
+product_attribute_value_6_x_4,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,6 x 4,0,,,5,0.0
+product_attribute_value_engine_operated,Jinasena_MasterData_Stock.product_attribute_prime_mover,Engine Operated,0,,,2,0.0
+product_attribute_value_electric_operated,Jinasena_MasterData_Stock.product_attribute_prime_mover,Electric Operated,0,,,11,0.0
+product_attribute_value_tractor_operated,Jinasena_MasterData_Stock.product_attribute_prime_mover,Tractor Operated,0,,,2,0.0
+product_attribute_value_6_x_6,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,6 X 6,0,,,11,0.0
+product_attribute_value_3_x_2_1_2,Jinasena_MasterData_Stock.product_attribute_inlet_x_outlet,3 x 2 1/2,0,,,8,0.0
+product_attribute_value_filter_feed,Jinasena_MasterData_Stock.product_attribute_application,Filter Feed,0,,,9,0.0
+product_attribute_value_5_years,Jinasena_MasterData_Stock.product_attribute_warranty,5 years,0,,,11,0.0
+product_attribute_value_5_year_warranty_1_year_parts_and_labour_,Jinasena_MasterData_Stock.product_attribute_warranty,"5 Year Warranty (1 Year Parts and Labour, Next 4 Years  Labour For Manufacturing Defects).",0,,,4,0.0
+product_attribute_value_original_manufacturer_service_fully_cove,Jinasena_MasterData_Stock.product_attribute_for_life,"Original Manufacturer Service, Fully Covered.",0,,,1,0.0

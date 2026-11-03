@@ -1,0 +1,12 @@
+id,name,company_id/id,technician_user_id/id,color,note,fold,x_studio_journal_type/id
+maintenance_equipment_category_cnc_vmc_machines,CNC & VMC Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_manual_lathe_machines,Manual Lathe Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_radial_drill_machines,Radial Drill Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_bench_drill_machines,Bench Drill Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_manual_milling_machines,Manual Milling Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_thread_rolling_machines,Thread rolling Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_hydraulic_press_machines,Hydraulic Press Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_hydraulic_press_machines_8,Hydraulic Press Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,,0,<p><br></p>,1,
+maintenance_equipment_category_coil_inserting_machines,Coil Inserting Machines,seed_master_data_and_settings.company_jinasena_pvt_ltd,seed_master_data_and_settings.user_8,0,<p><br></p>,1,
+maintenance_equipment_category_desktop_computer,Desktop Computer,seed_master_data_and_settings.company_jinasena_pvt_ltd,seed_master_data_and_settings.user_24,0,,1,
+maintenance_equipment_category_desktop_computers,Desktop Computers,seed_master_data_and_settings.company_jinasena_pvt_ltd,seed_master_data_and_settings.user_24,0,,1,
