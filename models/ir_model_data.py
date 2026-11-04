@@ -63,6 +63,33 @@ class IrModelData(models.Model):
         return True
 
     @api.model
+    def _jinasena_stock_bind_after_warehouses(self):
+        """Called from data/01_bind_after_warehouses.xml, right after stock.warehouse.csv.
+
+        Creating a warehouse makes Odoo create its locations (WH/Stock, ...) and operation types
+        (Receipts, Delivery Orders, ...). Bind our location and operation-type rows to those, so the
+        CSVs below update them instead of inserting duplicates (or hitting the location barcode
+        uniqueness rule). Rows already bound before the warehouses loaded are skipped.
+        """
+        data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
+        loc_csv = os.path.join(data_dir, 'stock.location.csv')
+        self._jinasena_stock_bind_one(
+            model='stock.location', csv_path=loc_csv,
+            match_fields=[('barcode', 'barcode'), ('company_id', 'company_id/id')],
+            skip_rows_lacking=['barcode'],
+        )
+        self._jinasena_stock_bind_one(
+            model='stock.location', csv_path=loc_csv,
+            match_fields=[('name', 'name'), ('location_id', 'location_id/id'), ('company_id', 'company_id/id')],
+        )
+        self._jinasena_stock_bind_one(
+            model='stock.picking.type', csv_path=os.path.join(data_dir, 'stock.picking.type.csv'),
+            match_fields=[('sequence_code', 'sequence_code'), ('warehouse_id', 'warehouse_id/id')],
+            skip_rows_lacking=['sequence_code', 'warehouse_id/id'],
+        )
+        return True
+
+    @api.model
     def _jinasena_stock_bind_one(self, model, csv_path, match_fields, skip_rows_lacking=None):
         if not os.path.exists(csv_path):
             _logger.warning('[%s] CSV missing: %s', MODULE, csv_path)

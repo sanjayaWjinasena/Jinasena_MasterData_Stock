@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!--
+            Runs right AFTER stock.warehouse.csv: binds our stock.location and
+            stock.picking.type rows to the locations and operation types Odoo
+            creates for each new warehouse, so the CSVs that follow update them
+            instead of inserting duplicates.
+        -->
+        <function model="ir.model.data" name="_jinasena_stock_bind_after_warehouses"/>
+    </data>
+</odoo>
