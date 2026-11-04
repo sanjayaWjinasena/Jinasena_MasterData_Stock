@@ -17,6 +17,12 @@ from odoo import api, models
 _logger = logging.getLogger(__name__)
 
 MODULE = 'Jinasena_MasterData_Stock'
+# The company's own subcontracting location (mrp_subcontracting creates one per company and refuses
+# any write to its usage / parent), so it is not in stock.location.csv; our xmlid is bound to it.
+SUBCONTRACTING_XMLIDS = {
+    'stock_location_subcontracting_location': 'seed_master_data_and_settings.company_jinasena_pvt_ltd',
+    'stock_location_subcontracting_location_386': 'seed_master_data_and_settings.company_jinasena_agricultural_machinery',
+}
 
 
 class IrModelData(models.Model):
@@ -26,6 +32,7 @@ class IrModelData(models.Model):
     def _jinasena_stock_bind_existing_rows(self):
         module_root = os.path.dirname(os.path.dirname(__file__))
         data_dir = os.path.join(module_root, 'data')
+        self._jinasena_stock_bind_subcontracting()
 
         # v0.0.8: match on (code, company) not (name, company). Codes are
         # 3-5 char stable identifiers (PW-JM, CW-CM) that match CDB↔target
@@ -58,6 +65,7 @@ class IrModelData(models.Model):
                 ('name', 'name'),
                 ('location_id', 'location_id/id'),
                 ('company_id', 'company_id/id'),
+                ('active', 'active'),
             ],
         )
         return True
@@ -80,7 +88,8 @@ class IrModelData(models.Model):
         )
         self._jinasena_stock_bind_one(
             model='stock.location', csv_path=loc_csv,
-            match_fields=[('name', 'name'), ('location_id', 'location_id/id'), ('company_id', 'company_id/id')],
+            match_fields=[('name', 'name'), ('location_id', 'location_id/id'), ('company_id', 'company_id/id'),
+                          ('active', 'active')],
         )
         self._jinasena_stock_bind_one(
             model='stock.picking.type', csv_path=os.path.join(data_dir, 'stock.picking.type.csv'),
@@ -90,13 +99,30 @@ class IrModelData(models.Model):
         return True
 
     @api.model
+    def _jinasena_stock_bind_subcontracting(self):
+        Company = self.env['res.company']
+        if 'subcontracting_location_id' not in Company._fields:
+            return
+        IMD = self.sudo()
+        for xmlid, company_xmlid in SUBCONTRACTING_XMLIDS.items():
+            company = self.env.ref(company_xmlid, raise_if_not_found=False)
+            location = company and company.sudo().subcontracting_location_id
+            if location and not IMD.search_count([('module', '=', MODULE), ('name', '=', xmlid)]):
+                # noupdate + loaded: no data file defines this xmlid, so the end-of-install cleanup must
+                # not treat it as obsolete (it would delete the company's subcontracting location)
+                IMD.create({'module': MODULE, 'name': xmlid, 'model': 'stock.location',
+                            'res_id': location.id, 'noupdate': True})
+            if location:
+                self.pool.loaded_xmlids.add(f'{MODULE}.{xmlid}')
+
+    @api.model
     def _jinasena_stock_bind_one(self, model, csv_path, match_fields, skip_rows_lacking=None):
         if not os.path.exists(csv_path):
             _logger.warning('[%s] CSV missing: %s', MODULE, csv_path)
             return
         skip_rows_lacking = skip_rows_lacking or []
         IMD = self.sudo()
-        Model = self.env[model].sudo()
+        Model = self.env[model].sudo().with_context(active_test=False)
         bound = 0
         skipped_existing = 0
         for row in _read_csv(csv_path):
@@ -124,11 +150,14 @@ class IrModelData(models.Model):
                         domain.append((db_field, '=', res_id))
                     else:
                         domain.append((db_field, '=', False))
+                elif db_field == 'active':
+                    domain.append((db_field, '=', val == '1'))
                 else:
                     domain.append((db_field, '=', val or False))
             if skip:
                 continue
-            recs = Model.search(domain, limit=1)
+            taken = IMD.search([('module', '=', MODULE), ('model', '=', model)]).mapped('res_id')
+            recs = Model.search(domain + [('id', 'not in', taken)], limit=1)
             if not recs:
                 continue
             IMD.create({
