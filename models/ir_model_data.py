@@ -176,3 +176,31 @@ def _read_csv(path):
     with open(path, encoding='utf-8', newline='') as f:
         for row in csv.DictReader(f):
             yield row
+
+
+class ResUsersStockLocations(models.Model):
+    _inherit = 'ir.model.data'
+
+    @api.model
+    def _jinasena_stock_user_locations(self):
+        """Users' Source / Virtual Locations as on Clear-DB (called from data/02_user_locations.xml).
+
+        Repair tickets use the logged-in user's source_location / virtual_location (and the _1 pair for the
+        second company): 'Virtual Location must be setup for Current Logged in User'. The seed module tries
+        to set them, but the virtual repair locations only exist once this module's stock.location.csv has
+        loaded, so they are set here (data/user_locations/user_locations.csv), on install and on upgrade.
+        Users that do not exist on the database are skipped.
+        """
+        path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'user_locations', 'user_locations.csv')
+        Users = self.env['res.users'].sudo().with_context(active_test=False)
+        done = 0
+        for row in _read_csv(path):
+            if row['field'] not in Users._fields:
+                continue
+            user = Users.search([('login', '=', row['login'])], limit=1)
+            location = self.env.ref(row['location_id/id'], raise_if_not_found=False)
+            if user and location and user[row['field']] != location:
+                user[row['field']] = location
+                done += 1
+        _logger.info('[%s] user source / virtual locations set: %s values', MODULE, done)
+        return True

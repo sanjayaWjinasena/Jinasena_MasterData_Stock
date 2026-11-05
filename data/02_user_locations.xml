@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- After stock.location.csv: users' Source / Virtual Locations as on Clear-DB
+             (see models/ir_model_data.py). -->
+        <function model="ir.model.data" name="_jinasena_stock_user_locations"/>
+    </data>
+</odoo>
